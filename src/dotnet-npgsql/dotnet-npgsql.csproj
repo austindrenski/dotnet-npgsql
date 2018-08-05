@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <OutputType>exe</OutputType>
+    <PackAsTool>true</PackAsTool>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ToolCommandName>npgsql</ToolCommandName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2018.2.1" />
+    <PackageReference Include="Npgsql" Version="4.0.2" />
+  </ItemGroup>
+</Project>
